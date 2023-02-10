@@ -17,14 +17,17 @@ struct CompanyView: View {
             Section {
                 HStack {
                     Image(systemName: "person.fill")
-                    Text("Welcome Harikrishna")
+                    Text("Welcome Suneetha")
                 }
             } header: {
                 Text("User Info")
             }
             
             Section {
-                Image("lvslogo")
+                Image("onBoard")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 300, height: 300)
             } header: {
                 Text("Company Logo")
             }

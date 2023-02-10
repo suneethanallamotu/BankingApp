@@ -9,48 +9,51 @@ import SwiftUI
 import UserNotifications
 
 struct SettingsView: View {
-    @ObservedObject var loginViewModel: LoginViewModel
-    @StateObject var accountListVM = AccountListViewModel()
+    //@ObservedObject var loginViewModel: LoginViewModel
+    //@StateObject var accountListVM = AccountListViewModel()
     //@State var loginInfo = UserDefaults.standard.string(forKey: "loginInfo")
-    
+    @EnvironmentObject private var userModel: UserModel
+    @State private var errorMessage: String = ""
+    @State private var isUserLogout = false
     var body: some View {
 //        Text("Settings View")
         NavigationView {
             Form {
                 Section {
-                    if loginViewModel.loginInfo.isEmpty {
-                        NavigationLink(destination: LoginView(loginViewModel: loginViewModel)) {
+                    if userModel.token.isEmpty {
+                        NavigationLink(destination: LoginView()) {
                             Text("Login")
                         }
                     }
                     else {
-                        
                         VStack {
-                            Text("Welcome: \(loginViewModel.loginInfo)")
-                            if loginViewModel.isAuthenticated && accountListVM.accounts.count > 0 {
-                                List(accountListVM.accounts, id: \.id) { account in
-                                    HStack {
-                                        Text("\(account.name)")
-                                        Spacer()
-                                        Text(String(format: "%.2f", account.balance))
-                                    }
-                                }.listStyle(PlainListStyle())
-                            } else {
-                                Text("Login to see your accounts.")
+                            HStack {
+                                Text("Welcome: \(userModel.user.firstName)")
+                                
                             }
-                            Button {
-                                accountListVM.getAllAcccounts()
-                            } label: {
-                                Text("Get all Accounts")
+                            NavigationLink(destination: UserListView()) {
+                                Text("Get all Users")
                             }
                         }
-
+                        .toolbar {
+                            ToolbarItem(placement: .navigationBarTrailing) {
+                                Button("Log out") {
+                                    isUserLogout = true
+                                    userModel.logout()
+                                }
+                            }
+                        }
                     }
                 } header: {
                     Text("Login Info")
                     
                 }
                 
+//                .sheet(isPresented: $isUserLogout){
+//                    NavigationStack {
+//
+//                    }
+//                }
                 Section {
                     VStack {
                         Button {
@@ -88,6 +91,18 @@ struct SettingsView: View {
                 
                 
                 
+            }
+            .navigationTitle("Settings")
+        }
+    }
+    
+    private func getUsers(){
+        Task {
+            do {
+                try await userModel.getUsers()
+                
+            } catch {
+                errorMessage = "Error getting users."
             }
         }
     }

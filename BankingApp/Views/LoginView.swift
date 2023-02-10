@@ -8,37 +8,69 @@
 import SwiftUI
 
 struct LoginView: View {
-    @State private var userName = ""
-    @State private var password = ""
-    @ObservedObject var loginViewModel: LoginViewModel = LoginViewModel()
-    @Environment(\.presentationMode) var presentationMode
+    @State private var email = "suneetha_n@hotmail.com"
+    @State private var password = "suneetha"
+    @State private var errorMessage = ""
+    @State private var isUserAddPresented = false
+    
+    @EnvironmentObject private var userModel: UserModel
+    
+    //@ObservedObject var loginViewModel: LoginViewModel = LoginViewModel()
+    @Environment(\.dismiss) private var dismiss
+    
+    var isFormNotValid: Bool {
+        email.isEmpty || password.isEmpty
+    }
+    
     var body: some View {
         VStack {
-            TextField("UserName", text: $userName)
+            TextField("UserName", text: $email)
             SecureField("Password", text: $password)
+            Text(errorMessage)
             
             Button {
-                if loginViewModel.isValidLogin(userName: userName, password: password)  {
-                    //UserDefaults.standard.set("Test", forKey: "loginInfo")
-                    loginViewModel.loginInfo = "Test"
+                if !isFormNotValid {
+                    login()
                 }
-                loginViewModel.userName = userName
-                loginViewModel.password = password
-                Task {
-                    await loginViewModel.login()
-                }
-                presentationMode.wrappedValue.dismiss()
             } label: {
-                Text(loginViewModel.isAuthenticated ? "Singout" : "Login")
+                Text(userModel.isAuthenticated ? "Singout" : "Login")
             }
+            .disabled(isFormNotValid)
+            Spacer()
             
-            
+        }
+        .padding()
+        .toolbar {
+            ToolbarItem(placement: .navigationBarTrailing) {
+                Button("Register") {
+                    isUserAddPresented = true
+                }
+            }
+        }
+        
+        .sheet(isPresented: $isUserAddPresented) {
+            NavigationStack {
+                AddUserView()
+            }
+        }
+    }
+    private func login(){
+        let loginRequestBody = LoginRequestBody(email: email, password: password)
+        Task {
+            do {
+                try await userModel.login(loginRequestBody)
+                if errorMessage.isEmpty {
+                    dismiss()
+                }
+            } catch {
+                errorMessage = "Invalid Login."
+            }
         }
     }
 }
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
-        LoginView(loginViewModel: LoginViewModel())
+        LoginView()
     }
 }

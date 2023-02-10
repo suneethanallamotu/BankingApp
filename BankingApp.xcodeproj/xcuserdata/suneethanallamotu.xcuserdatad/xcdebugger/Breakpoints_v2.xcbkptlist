@@ -17,7 +17,7 @@
             startingLineNumber = "19"
             endingLineNumber = "19"
             landmarkName = "getAllAcccounts()"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -224,6 +224,1188 @@
                   offsetFromSymbolStart = "512">
                </Location>
             </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5BC2AA3D-0D03-4214-ACAB-0136AA8A35BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "login()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5BC2AA3D-0D03-4214-ACAB-0136AA8A35BE - a95de25aa65927eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.LoginView.login() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "5BC2AA3D-0D03-4214-ACAB-0136AA8A35BE - 9836e8ef05ba2453"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.LoginView.login() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "5BC2AA3D-0D03-4214-ACAB-0136AA8A35BE - c9edb2cb5472ebed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.LoginView.login() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "5BC2AA3D-0D03-4214-ACAB-0136AA8A35BE - f8259af3e3194dec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.LoginView.login() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/LoginView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A408F6E-641C-479C-84D5-86FB7FC2950A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7A408F6E-641C-479C-84D5-86FB7FC2950A - 925407df7ef32787"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "300">
+               </Location>
+               <Location
+                  uuid = "7A408F6E-641C-479C-84D5-86FB7FC2950A - 5c24e9bdc5418896"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "7A408F6E-641C-479C-84D5-86FB7FC2950A - 8b3a7a9934c26385"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "7A408F6E-641C-479C-84D5-86FB7FC2950A - f896a8f9ee39c184"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7A0D2987-D4DA-40BC-8DD6-79EB34930A26"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E8F1040-3FB4-45A0-A4E8-E74C2F4C2A79"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "login()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D58EA011-61AD-4299-B0EB-78AA9A58542B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/LoginView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E8B3736-81F9-4F2A-85BB-17941D276C03"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5E8B3736-81F9-4F2A-85BB-17941D276C03 - 925407df7ef327e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "5E8B3736-81F9-4F2A-85BB-17941D276C03 - f896a8f9ee39c1e7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.UserModel.login(BankingApp.LoginRequestBody) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42BDFEB1-EBEF-451A-A3A1-129C3390B820"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "42BDFEB1-EBEF-451A-A3A1-129C3390B820 - 658c4cfd2a28536c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "2372">
+               </Location>
+               <Location
+                  uuid = "42BDFEB1-EBEF-451A-A3A1-129C3390B820 - 39f022873cff1762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1668">
+               </Location>
+               <Location
+                  uuid = "42BDFEB1-EBEF-451A-A3A1-129C3390B820 - ac2bce620beb4963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F3C2F34-CD16-4C28-A375-15CF579B0CB3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F3C2F34-CD16-4C28-A375-15CF579B0CB3 - 39f022873cff179b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "1F3C2F34-CD16-4C28-A375-15CF579B0CB3 - 39f022873cff179b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "90"
+                  endingLineNumber = "90"
+                  offsetFromSymbolStart = "576">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "70671203-8EF8-449E-856D-52DD493B41B5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E039B5A-25F8-4919-8016-8FD40B6D87C0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25AD4B68-BFB4-47D4-89AB-4FDFBB7C8B23"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "067B7A92-D53B-4C50-BFCC-D642477C7882"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D01AFD6B-3592-47FB-A6CD-43F8D0D756DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "getUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 1c72240354d64856"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 78585bb61ea7ea25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 70dcccd7defef8b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 70dcccd7defef854"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 6dd220928d9bf0ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9F24E221-7C4E-4047-90D5-8C271FCB424A - 6dd220928d9bf05b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "20FCA766-D1E0-45C9-BB34-5FADF1C96E39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "20FCA766-D1E0-45C9-BB34-5FADF1C96E39 - 1c72240354d648b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "20FCA766-D1E0-45C9-BB34-5FADF1C96E39 - 1c72240354d648b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "20FCA766-D1E0-45C9-BB34-5FADF1C96E39 - 70dcccd7defef8b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "20FCA766-D1E0-45C9-BB34-5FADF1C96E39 - 6dd220928d9bf0ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D8C088B0-28C1-4034-AA89-400AB3BA8EFF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "login(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AECC5658-9814-4443-8DC4-898E18041DE5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/SettingsView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67AC4D68-54D5-4C76-9C60-14E024D980C9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "addUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6A36EFF2-4D75-4B28-93A3-E60DBFC5C8BD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "addUser(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6A36EFF2-4D75-4B28-93A3-E60DBFC5C8BD - 448d762d80ccb613"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "6A36EFF2-4D75-4B28-93A3-E60DBFC5C8BD - 9ad9b83c5cb48726"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "6A36EFF2-4D75-4B28-93A3-E60DBFC5C8BD - 1030b52ae553f21d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "6A36EFF2-4D75-4B28-93A3-E60DBFC5C8BD - c79ad49558a75c1e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F9C923E-3D36-4FE2-BC2F-9E04CF6845B4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/AddUserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "addUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B87D57E-9883-4BB9-9303-FA3BBB747874"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/AddUserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "addUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE4883C2-DF5C-40CE-9165-032D430EAB2E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "addUser(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CE4883C2-DF5C-40CE-9165-032D430EAB2E - 448d762d80ccb630"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "228">
+               </Location>
+               <Location
+                  uuid = "CE4883C2-DF5C-40CE-9165-032D430EAB2E - 1030b52ae553f23e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "364">
+               </Location>
+               <Location
+                  uuid = "CE4883C2-DF5C-40CE-9165-032D430EAB2E - c79ad49558a75c3d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.UserModel.addUser(BankingApp.CreateUserRequest) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "583DD419-0873-4CB8-9749-93E75BBC7A6A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7057A031-0424-458D-8BFB-843F7D955A71"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "getUsers()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7057A031-0424-458D-8BFB-843F7D955A71 - 70dcccd7defef9ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "7057A031-0424-458D-8BFB-843F7D955A71 - 632754a4488729f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "7057A031-0424-458D-8BFB-843F7D955A71 - 6dd220928d9bf1f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "152">
+               </Location>
+               <Location
+                  uuid = "7057A031-0424-458D-8BFB-843F7D955A71 - 5781fc89329059f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(7) suspend resume partial function for BankingApp.UserModel.getUsers() async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "62244443-8603-4D5D-A593-E8AB5049B536"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "deleteUser(user:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "62244443-8603-4D5D-A593-E8AB5049B536 - 8c610f7b62b67ad1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.UserModel.deleteUser(user: BankingApp.User) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1092">
+               </Location>
+               <Location
+                  uuid = "62244443-8603-4D5D-A593-E8AB5049B536 - edf1beeab080bed3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.UserModel.deleteUser(user: BankingApp.User) async throws -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Models/UserModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "228">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F4DEAAF-6A95-47DC-B7B4-5F0D7E069429"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F4DEAAF-6A95-47DC-B7B4-5F0D7E069429 - 658c4cfd2a28536c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "2372">
+               </Location>
+               <Location
+                  uuid = "0F4DEAAF-6A95-47DC-B7B4-5F0D7E069429 - 39f022873cff1762"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "1668">
+               </Location>
+               <Location
+                  uuid = "0F4DEAAF-6A95-47DC-B7B4-5F0D7E069429 - ac2bce620beb4963"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for BankingApp.HTTPClient.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(BankingApp.Resource&lt;&#x3c4;_0_0&gt;) async throws -&gt; &#x3c4;_0_0"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Services/HTTPClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "83"
+                  endingLineNumber = "83"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "08B5FD34-46DD-4721-BD76-96A5B2CD1D01"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "270CCDB4-B5EB-4A4B-8B3C-68A5C21CA038"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/EditUserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "updateUser()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69827D80-E356-4FED-9BD0-0ED4CF42ADE7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Views/EditUserView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "updateUser()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69827D80-E356-4FED-9BD0-0ED4CF42ADE7 - f3e0519de9691eff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.EditUserView.updateUser() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/EditUserView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  uuid = "69827D80-E356-4FED-9BD0-0ED4CF42ADE7 - 69afb95e6e889fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.EditUserView.updateUser() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/EditUserView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "69827D80-E356-4FED-9BD0-0ED4CF42ADE7 - 556c4734e62778e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for closure #1 @Sendable () async -&gt; () in BankingApp.EditUserView.updateUser() -&gt; ()"
+                  moduleName = "BankingApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/suneethanallamotu/Projects/IOS/SwiftAssignments/BankingApp/BankingApp/Views/EditUserView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7B01D38D-B112-4284-9E90-2BA5DD2D18ED"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Models/UserModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "updateUser(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1E14A713-C0D6-4FA9-B905-738F7A3C6C8A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BankingApp/Services/HTTPClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "load(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

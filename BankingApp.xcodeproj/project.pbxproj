@@ -10,6 +10,19 @@
 		B24D8A542943EDD30065DB11 /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D8A532943EDD30065DB11 /* Webservice.swift */; };
 		B24D8A562943FD7E0065DB11 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D8A552943FD7E0065DB11 /* Account.swift */; };
 		B24D8A582946660C0065DB11 /* AccountListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24D8A572946660C0065DB11 /* AccountListViewModel.swift */; };
+		B25BABB52977C32800B21021 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BABB42977C32800B21021 /* EditUserView.swift */; };
+		B25BAC12298081D600B21021 /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B25BAC11298081D500B21021 /* UserType.swift */; };
+		B2B1D07D295E2BDC00572024 /* LoginRequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D07C295E2BDC00572024 /* LoginRequestBody.swift */; };
+		B2B1D080295E2C9C00572024 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D07F295E2C9C00572024 /* URL+Extensions.swift */; };
+		B2B1D082295E303900572024 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D081295E303900572024 /* HTTPClient.swift */; };
+		B2B1D084295E87A500572024 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D083295E87A500572024 /* UserModel.swift */; };
+		B2B1D086295E87B200572024 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D085295E87B200572024 /* User.swift */; };
+		B2B1D088296370F500572024 /* LoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D087296370F500572024 /* LoginResponse.swift */; };
+		B2B1D0A62964ECAE00572024 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0A52964ECAE00572024 /* UserDetailView.swift */; };
+		B2B1D0A82964F7F200572024 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0A72964F7F200572024 /* AddUserView.swift */; };
+		B2B1D0AA296513FF00572024 /* CreateUserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0A9296513FF00572024 /* CreateUserRequest.swift */; };
+		B2B1D0B0296D181800572024 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0AF296D181800572024 /* Date+Extensions.swift */; };
+		B2B1D0B2296D281D00572024 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B1D0B1296D281D00572024 /* UserListView.swift */; };
 		B2F243FB293BB23A00DBF1E6 /* BankingAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F243FA293BB23A00DBF1E6 /* BankingAppApp.swift */; };
 		B2F243FD293BB23A00DBF1E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F243FC293BB23A00DBF1E6 /* ContentView.swift */; };
 		B2F243FF293BB23B00DBF1E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F243FE293BB23B00DBF1E6 /* Assets.xcassets */; };
@@ -28,6 +41,19 @@
 		B24D8A532943EDD30065DB11 /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		B24D8A552943FD7E0065DB11 /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
 		B24D8A572946660C0065DB11 /* AccountListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountListViewModel.swift; sourceTree = "<group>"; };
+		B25BABB42977C32800B21021 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		B25BAC11298081D500B21021 /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
+		B2B1D07C295E2BDC00572024 /* LoginRequestBody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequestBody.swift; sourceTree = "<group>"; };
+		B2B1D07F295E2C9C00572024 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		B2B1D081295E303900572024 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		B2B1D083295E87A500572024 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		B2B1D085295E87B200572024 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B2B1D087296370F500572024 /* LoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResponse.swift; sourceTree = "<group>"; };
+		B2B1D0A52964ECAE00572024 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		B2B1D0A72964F7F200572024 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		B2B1D0A9296513FF00572024 /* CreateUserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserRequest.swift; sourceTree = "<group>"; };
+		B2B1D0AF296D181800572024 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		B2B1D0B1296D281D00572024 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		B2F243F7293BB23A00DBF1E6 /* BankingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BankingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2F243FA293BB23A00DBF1E6 /* BankingAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankingAppApp.swift; sourceTree = "<group>"; };
 		B2F243FC293BB23A00DBF1E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,8 +84,18 @@
 			isa = PBXGroup;
 			children = (
 				B24D8A532943EDD30065DB11 /* Webservice.swift */,
+				B2B1D081295E303900572024 /* HTTPClient.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B2B1D07E295E2C5D00572024 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B2B1D07F295E2C9C00572024 /* URL+Extensions.swift */,
+				B2B1D0AF296D181800572024 /* Date+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B2F243EE293BB23A00DBF1E6 = {
@@ -81,6 +117,7 @@
 		B2F243F9293BB23A00DBF1E6 /* BankingApp */ = {
 			isa = PBXGroup;
 			children = (
+				B2B1D07E295E2C5D00572024 /* Extensions */,
 				B24D8A522943EDC30065DB11 /* Services */,
 				B2F24409293BB27200DBF1E6 /* ViewModels */,
 				B2F2440A293BB27900DBF1E6 /* Models */,
@@ -109,7 +146,11 @@
 				B2F2440F293BB2D200DBF1E6 /* CompanyView.swift */,
 				B2F24411293BB2DB00DBF1E6 /* MapView.swift */,
 				B2F24413293BB2EC00DBF1E6 /* SettingsView.swift */,
+				B2B1D0B1296D281D00572024 /* UserListView.swift */,
+				B2B1D0A52964ECAE00572024 /* UserDetailView.swift */,
+				B25BABB42977C32800B21021 /* EditUserView.swift */,
 				B2F2441B2940FA2E00DBF1E6 /* LoginView.swift */,
+				B2B1D0A72964F7F200572024 /* AddUserView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -128,6 +169,12 @@
 			isa = PBXGroup;
 			children = (
 				B24D8A552943FD7E0065DB11 /* Account.swift */,
+				B2B1D07C295E2BDC00572024 /* LoginRequestBody.swift */,
+				B2B1D087296370F500572024 /* LoginResponse.swift */,
+				B2B1D083295E87A500572024 /* UserModel.swift */,
+				B25BAC11298081D500B21021 /* UserType.swift */,
+				B2B1D085295E87B200572024 /* User.swift */,
+				B2B1D0A9296513FF00572024 /* CreateUserRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -203,15 +250,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2F24414293BB2EC00DBF1E6 /* SettingsView.swift in Sources */,
+				B25BABB52977C32800B21021 /* EditUserView.swift in Sources */,
+				B25BAC12298081D600B21021 /* UserType.swift in Sources */,
 				B2F243FD293BB23A00DBF1E6 /* ContentView.swift in Sources */,
 				B2F24412293BB2DB00DBF1E6 /* MapView.swift in Sources */,
 				B24D8A582946660C0065DB11 /* AccountListViewModel.swift in Sources */,
 				B2F2441C2940FA2E00DBF1E6 /* LoginView.swift in Sources */,
+				B2B1D07D295E2BDC00572024 /* LoginRequestBody.swift in Sources */,
+				B2B1D088296370F500572024 /* LoginResponse.swift in Sources */,
 				B24D8A542943EDD30065DB11 /* Webservice.swift in Sources */,
+				B2B1D0A82964F7F200572024 /* AddUserView.swift in Sources */,
+				B2B1D0A62964ECAE00572024 /* UserDetailView.swift in Sources */,
+				B2B1D0B0296D181800572024 /* Date+Extensions.swift in Sources */,
+				B2B1D080295E2C9C00572024 /* URL+Extensions.swift in Sources */,
+				B2B1D084295E87A500572024 /* UserModel.swift in Sources */,
 				B24D8A562943FD7E0065DB11 /* Account.swift in Sources */,
 				B2F2440E293BB2C400DBF1E6 /* HomeView.swift in Sources */,
+				B2B1D082295E303900572024 /* HTTPClient.swift in Sources */,
 				B2F2440C293BB2B200DBF1E6 /* MainView.swift in Sources */,
 				B2F24410293BB2D200DBF1E6 /* CompanyView.swift in Sources */,
+				B2B1D086295E87B200572024 /* User.swift in Sources */,
+				B2B1D0B2296D281D00572024 /* UserListView.swift in Sources */,
+				B2B1D0AA296513FF00572024 /* CreateUserRequest.swift in Sources */,
 				B2F243FB293BB23A00DBF1E6 /* BankingAppApp.swift in Sources */,
 				B2F2441E2940FBA200DBF1E6 /* LoginViewModel.swift in Sources */,
 				B2F24416293FA92800DBF1E6 /* MapViewModel.swift in Sources */,

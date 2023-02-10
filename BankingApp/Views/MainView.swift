@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainView: View {
-    @ObservedObject var loginViewModel: LoginViewModel
+    //@ObservedObject var loginViewModel: LoginViewModel
     var body: some View {
         TabView {
             HomeView()
@@ -23,7 +23,7 @@ struct MainView: View {
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }
-            SettingsView(loginViewModel: loginViewModel)
+            SettingsView()
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }
@@ -33,6 +33,6 @@ struct MainView: View {
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
-        MainView(loginViewModel: LoginViewModel())
+        MainView()
     }
 }

@@ -13,20 +13,20 @@ enum AuthenticationError: Error {
     case custom(errorMessage: String)
 }
 
-struct LoginRequestBody: Codable {
-    let userName: String
-    let password: String
-}
+//struct LoginRequestBody: Codable {
+//    let userName: String
+//    let password: String
+//}
 
-struct LoginResponse: Codable {
-    let token: String?
-    let message: String?
-    let success: Bool?
-}
+//struct LoginResponse: Codable {
+//    let token: String?
+//    let message: String?
+//    let success: Bool?
+//}
 //struct Account: Decodable {
 //    
 //}
-enum NetworkError: Error {
+enum NetworkError1: Error {
     case invalidURL
     case requestFailed
     case noData
@@ -70,10 +70,10 @@ class Webservice {
         //Task {
             let (data, response) = try await session.data(from: url)
             guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {
-                throw NetworkError.requestFailed
+                throw NetworkError1.requestFailed
             }
             guard let decodedData = try? JSONDecoder().decode(String.self, from: data) else {
-                throw NetworkError.decodingError
+                throw NetworkError1.decodingError
             }
             
                 //return decodedData
@@ -82,7 +82,7 @@ class Webservice {
         return decodedData
     }
     
-    func getAllAccounts(token: String, completion: @escaping(Result<[Account], NetworkError>) -> Void) {
+    func getAllAccounts(token: String, completion: @escaping(Result<[Account], NetworkError1>) -> Void) {
         guard let url = URL(string: "https://strong-spangled-apartment.glitch.me/accounts") else {
             completion(.failure(.invalidURL))
             return
