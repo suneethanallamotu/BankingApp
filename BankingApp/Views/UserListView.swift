@@ -16,20 +16,16 @@ struct UserListView: View {
     
     var body: some View {
                 
-        NavigationStack {
+        //NavigationStack {
             List {
                 ForEach(userModel.users, id: \.id) { user in
                     NavigationLink(destination: UserDetailView(user: user)) {
-                    //NavigationLink(value: user) {
                         HStack {
                             Text("\(user.firstName)  \(user.lastName)")
                             Spacer()
                             
                         }
                     }
-//                    .navigationDestination(for: User.self, destination: { user in
-//                        UserDetailView(user: user)
-//                    })
                 }
                 .onDelete { indexSet in
                     deleteUser(at: indexSet)
@@ -47,7 +43,7 @@ struct UserListView: View {
             //ProgressView(value: downloadProgress)
             ProgressView()
         }
-        }
+        //}
        
     }
     
